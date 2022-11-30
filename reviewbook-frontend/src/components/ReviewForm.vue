@@ -27,7 +27,7 @@
         name="categoryId"
         as="select"
         class="form-select"
-        v-model:Id="reviewLocal.categoryId"
+        v-model="reviewLocal.categoryId"
       >
         <option
           v-for="category in categories"
